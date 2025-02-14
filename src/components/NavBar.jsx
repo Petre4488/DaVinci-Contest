@@ -4,6 +4,7 @@ import { FaHouseUser } from "react-icons/fa";
 import { FaHelicopter } from "react-icons/fa";
 import { FaTractor } from "react-icons/fa";
 import { FaCarCrash } from "react-icons/fa";
+import OpenAiBtn from "../components/OpenAiBtn"
 
 export default function NavBar() {
     return(
@@ -15,6 +16,7 @@ export default function NavBar() {
             <FaHelicopter className="cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110"/>
             <FaTractor className="cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110"/>
             <FaCarCrash className="cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110"/>
+            <OpenAiBtn/>
         </div>
     );
 }
